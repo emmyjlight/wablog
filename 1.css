@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background:linear-gradient(rgba(0.10,0,0,0.5), rgba(0,0,0,0.10) );
+    font-family: 'Times New Roman', Times, serif;
+}
+.wa{
+    font-size: 150px;
+    background-color: chartreuse;
+}
+
+.headlines{
+    
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 2rem;
+    align-items: center;
+}
+#topline{
+    color: red;
+    text-decoration: none;
+    animation: rolling 5s infinite 
+}
+
+@keyframes rolling{
+  0%(transform: translateX())
+
+}
+#topline:hover{
+    color: white;
+}
+
+
+.welcome{ 
+   margin: 5px;
+    
+    
+}
+
+
+.give{
+    /* display: flex; */
+    flex-direction: column;
+    /* margin: 30px; */
+    
+}
+#space{
+    color: red;
+    margin: 0px;
+}
+.me{
+    margin: 200px;
+}
